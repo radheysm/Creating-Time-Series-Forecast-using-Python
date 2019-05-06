@@ -13,3 +13,27 @@ b) Forecasting using Multiple Modeling Techniques:
 5) Introduction to ARIMA model
 6) Parameter tuning for ARIMA model
 7) SARIMAX model on daily time series
+
+1) Hypothesis Generation
+Hypothesis generation helps us to point out the factors which might affect our dependent variable. Below are some of the hypotheses which I think can affect the passenger count(dependent variable for this time series problem) on the JetRail:
+
+There will be an increase in the traffic as the years pass by.
+Explanation - Population has a general upward trend with time, so I can expect more people to travel by JetRail. Also, generally companies expand their businesses over time leading to more customers travelling through JetRail.
+The traffic will be high from May to October.
+Explanation - Tourist visits generally increases during this time perion.
+Traffic on weekdays will be more as compared to weekends/holidays.
+Explanation - People will go to office on weekdays and hence the traffic will be more
+Traffic during the peak hours will be high.
+Explanation - People will travel to work, college.
+We will try to validate each of these hypothesis based on the dataset. Now let’s have a look at the dataset.
+
+After making our hypothesis, we will try to validate them. Before that we will import all the necessary packages.
+
+2) Getting the system ready and loading the data
+Versions:
+
+Python = 3.7
+
+Pandas = 0.20.3
+
+sklearn = 0.19.1
